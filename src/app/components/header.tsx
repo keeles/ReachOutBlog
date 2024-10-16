@@ -10,7 +10,7 @@ export default function Header() {
           <Link href="/">
             <Image src={logoSVG} alt="Reach Out Logo" width={60} height={60} className="mr-2" />
           </Link>
-          <h1 className="text-2xl">Reach Out</h1>
+          <h1 className="text-2xl">ReachOut</h1>
         </div>
         <nav className="flex items-center px-2 self-center">
           <ul className="flex space-x-5">

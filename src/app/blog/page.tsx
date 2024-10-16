@@ -12,7 +12,7 @@ export default function Blog() {
         <p className="">October 14th, 2024</p>
       </div>
       <p className="mt-3">
-        Reach Out is a platform designed to bridge the gap between organizations helping ex-offenders and employers who
+        ReachOut is a platform designed to bridge the gap between organizations helping ex-offenders and employers who
         are open to second-chance hiring. Based on our research, we know many ex-offenders face barriers re-entering
         society, even though they often possess the skills, motivation, and dedication to succeed. At the same time,
         many employers are currently facing labor shortages despite the valuable talent pool that is available. Our

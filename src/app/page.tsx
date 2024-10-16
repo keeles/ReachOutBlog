@@ -4,10 +4,10 @@ import coverPhoto from "./assets/reach-out-main-page-cover-photo.jpeg";
 export default function Home() {
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-4">Welcome to Reach Out</h1>
+      <h1 className="text-3xl font-bold mb-4">Welcome to ReachOut</h1>
       <Image className="mx-auto my-5" src={coverPhoto} alt="" width={700} height={700}></Image>
       <p className="mb-4">
-        At Reach Out, we are dedicated to helping individuals who have been incarcerated find meaningful employment. Our
+        At ReachOut, we are dedicated to helping individuals who have been incarcerated find meaningful employment. Our
         mission is to ensure a smoother transition back into society and to reduce the chances of re-offending.
       </p>
       <p className="mb-4">

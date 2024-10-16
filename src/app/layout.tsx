@@ -11,8 +11,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Reach Out Blog",
-  description: "Blog for information on the Reach Out App",
+  title: "ReachOut Blog",
+  description: "Blog for information on the ReachOut App",
 };
 
 export default function RootLayout({

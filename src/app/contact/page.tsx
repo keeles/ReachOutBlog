@@ -4,9 +4,9 @@ export default function ContactPage() {
   return (
     <main>
       <div className="contact-form mt-5">
-        <h1 className="text-3xl font-bold">Contact Reach Out</h1>
+        <h1 className="text-3xl font-bold">Contact ReachOut</h1>
         <p className="mt-3">
-          Reach Out is a group of BCIT students that are working to help people who have been released from prison find
+          ReachOut is a group of BCIT students that are working to help people who have been released from prison find
           meaningful employment.
           <br></br>
           <br></br>
