@@ -8,7 +8,7 @@ export default function Footer() {
       <p className="text-sm">&copy; {new Date().getFullYear()} Reach Out. All rights reserved.</p>
       <p className="text-sm mt-2">555 Seymour St, Vancouver, BC V6B 3H6</p>
       <p className="text-sm mt-2">
-        <a href="mailto:keeles1@my.bcit.ca" className="text-blue-400 hover:underline">
+        <a href="/contact" className="text-blue-400 hover:underline">
           Contact Us
         </a>
       </p>
