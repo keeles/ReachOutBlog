@@ -68,11 +68,11 @@ export default function ContactForm({variant}: {variant: string}) {
   };
 
   return (
-    <div>
+    <div className="">
       <Toaster position="top-center" reverseOrder={false} />
-      <h1 className="text-3xl self-center">Contact Us </h1>
+      <h1 className="text-3xl self-start">Contact Us </h1>
       <form action="" onSubmit={handleFormSubmit} encType="text/plain" className="flex flex-col justify-between py-6">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center w-full">
           <label htmlFor="name" className="py-1 text-lg">
             Name
           </label>
@@ -82,7 +82,7 @@ export default function ContactForm({variant}: {variant: string}) {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2"
+            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2 w-full"
           />
         </div>
         <div className="flex flex-col justify-center">
@@ -95,7 +95,7 @@ export default function ContactForm({variant}: {variant: string}) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2"
+            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2 w-full"
           />
         </div>
         <div className="flex flex-col justify-center max-w-3xl">
@@ -110,7 +110,7 @@ export default function ContactForm({variant}: {variant: string}) {
             autoCorrect="on"
             onChange={(e) => setMessage(e.target.value)}
             required
-            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2 resize-none"
+            className="dark:bg-gray-800 rounded-md border-solid focus:border-gray-500 border-2 w-full resize-none"
           />
         </div>
         <div className="flex flex-row justify-center max-w-3xl">
