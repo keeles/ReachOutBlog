@@ -1,9 +1,12 @@
 import ContactForm from "@/app/components/contact-form";
+import {Suspense} from "react";
 
 export default function Info() {
   return (
     <div>
-      <ContactForm variant="Business" />
+      <Suspense>
+        <ContactForm variant="Business" />
+      </Suspense>
     </div>
   );
 }
