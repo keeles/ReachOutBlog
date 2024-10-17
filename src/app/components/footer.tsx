@@ -4,7 +4,7 @@ import {FaTwitter} from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="footer bg-gray-800 text-white w-full text-center p-5 mt-10 self-end">
+    <footer className="footer bg-gray-800 dark:bg-gray-950 text-white w-full text-center p-5 mt-10 self-end">
       <p className="text-sm">&copy; {new Date().getFullYear()} ReachOut. All rights reserved.</p>
       <p className="text-sm mt-2">555 Seymour St, Vancouver, BC V6B 3H6</p>
       <p className="text-sm mt-2">

@@ -18,21 +18,21 @@ export default function ContactPage() {
         <ul>
           <li>
             <p className="mt-3">
-              <Link href="mailto:keeles1@my.bcit.ca" className="text-blue-600">
+              <Link href="/contact/business" className="text-blue-600">
                 For Businesses looking to get involved
               </Link>
             </p>
           </li>
           <li>
             <p className="mt-3">
-              <Link href="mailto:keeles1@my.bcit.ca" className="text-blue-600">
+              <Link href="/contact/organizations" className="text-blue-600">
                 For Organizations looking learn more about our product
               </Link>
             </p>
           </li>
           <li>
             <p className="mt-3">
-              <Link href="mailto:keeles1@my.bcit.ca" className="text-blue-600">
+              <Link href="/contact/info" className="text-blue-600">
                 General Information
               </Link>
             </p>
