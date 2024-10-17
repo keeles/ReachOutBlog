@@ -8,18 +8,36 @@ export default function Footer() {
       <p className="text-sm">&copy; {new Date().getFullYear()} ReachOut. All rights reserved.</p>
       <p className="text-sm mt-2">555 Seymour St, Vancouver, BC V6B 3H6</p>
       <p className="text-sm mt-2">
-        <a href="/contact" className="text-blue-400 hover:underline">
+        <a aria-label="Contact Us" href="/contact" className="text-blue-400 hover:underline">
           Contact Us
         </a>
       </p>
       <div className="flex justify-center space-x-4 mt-3">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+        <a
+          aria-label="Facebook"
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400"
+        >
           <FaFacebook />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+        <a
+          aria-label="Instagram"
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400"
+        >
           <FaInstagram />
         </a>
-        <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+        <a
+          aria-label="X, formerly know as Twitter"
+          href="https://www.x.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400"
+        >
           <FaTwitter />
         </a>
       </div>

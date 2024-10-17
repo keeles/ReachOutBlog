@@ -20,7 +20,12 @@ export default function Blog() {
       </p>
       <Image
         src={blogImage}
-        alt="The benefits of second chance hiring"
+        alt={`
+          The benefits of second chance hiring: Employees with a criminal record have a 13% lower turnover rate than those without one.
+          58% of Canadians surveyed said they would be more likely to buy products and services from companies hiring ex-offenders.
+          There is a 40% reduction in recidivism for individuals who secure employment release.
+          82% of managers reported that employee with criminal records perform just as well, if not better than those without.  
+          `}
         width={800}
         height={400}
         className="w-full my-4 rounded-lg shadow"

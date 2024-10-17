@@ -15,22 +15,22 @@ export default function Header() {
         <nav className="flex items-center px-2 self-center">
           <ul className="flex space-x-5">
             <li>
-              <Link href="/" className="font-bold hover:text-blue-600">
+              <Link aria-label="Home" href="/" className="font-bold hover:text-blue-600">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="font-bold hover:text-blue-600">
+              <Link aria-label="Contact" href="/contact" className="font-bold hover:text-blue-600">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/blog" className="font-bold hover:text-blue-600">
+              <Link aria-label="Blog" href="/blog" className="font-bold hover:text-blue-600">
                 Blog
               </Link>
             </li>
             <li>
-              <Link href="/team" className="font-bold hover:text-blue-600">
+              <Link aria-label="Team" href="/team" className="font-bold hover:text-blue-600">
                 Team
               </Link>
             </li>
