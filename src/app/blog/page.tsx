@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import blogImage from "../assets/life-beyond-second-chance-hiring-blog-post-1.jpg";
 
 export default function Blog() {
   return (
@@ -25,7 +23,7 @@ export default function Blog() {
         </Link>
         <Link href="/blog/posts/our-technology">
           <li className="dark:border border-2 dark:border-white border-slate-700 rounded-md p-2 m-2 max-h-32 overflow-hidden hover:max-h-[300px] transition-all duration-300 ease-in-out transform hover:scale-105">
-            <span className="text-lg font-bold">Inside Our App's Technology: AI & UI Component Library</span>
+            <span className="text-lg font-bold">Inside Our App&apos;s Technology: AI & UI Component Library</span>
             <p className="">October 29th, 2024</p>
             <p className="mt-2">
               Our app uses AI to go beyond basic keyword matching, focusing instead on aligning each user’s unique

@@ -49,9 +49,9 @@ export default function TrustThroughDesign() {
       </div>
       <p className="mt-3">
         We selected photos that capture real-world settings with diverse teams working together and people in hands-on,
-        skilled work environments. These images remind users that this app isn’t just about technology—it’s about real
-        people, real stories, and real opportunities. Whether you're an employer looking to diversify your team, a
-        nonprofit worker championing someone’s second chance, or an individual ready to start anew, these images
+        skilled work environments. These images remind users that this app isn’t just about technology—it&apos;s about
+        real people, real stories, and real opportunities. Whether you&apos;re an employer looking to diversify your
+        team, a nonprofit worker championing someone’s second chance, or an individual ready to start anew, these images
         resonate with the heart of our values.
       </p>
       <h2 className="text-2xl font-bold mt-4">
@@ -97,8 +97,9 @@ export default function TrustThroughDesign() {
       <ul className="list-disc list-inside ml-5 mb-5">
         <li>
           <span className="font-bold">Accessibility</span>: Both fonts are highly legible on screens, even at smaller
-          sizes—crucial for users with varying levels of digital literacy. Roboto's clean, straightforward lines make it
-          easy to read, while Montserrat’s slightly rounded edges add a friendly touch without sacrificing clarity.
+          sizes—crucial for users with varying levels of digital literacy. Roboto&apos;s clean, straightforward lines
+          make it easy to read, while Montserrat’s slightly rounded edges add a friendly touch without sacrificing
+          clarity.
         </li>
         <li>
           <span className="font-bold">Font Family Variety</span>: With a wide range of weights and styles (bold,

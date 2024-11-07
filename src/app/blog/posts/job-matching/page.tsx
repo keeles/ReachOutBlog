@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import {FaArrowLeft} from "react-icons/fa";
 
@@ -46,13 +45,13 @@ export default function JobMatching() {
       </ul>
       <p className="mt-3">
         This detailed information forms the foundation for personalized job recommendations, allowing our AI system to
-        understand each user’s unique qualifications and preferences.
+        understand each user&apos;s unique qualifications and preferences.
       </p>
       <h2 className="text-2xl font-bold mt-4">Step 2: Analyzing Job Listings Using AI</h2>
       <p className="mt-3">
         To ensure we find the best matches, our app uses AI to analyze job listings from participating employers. By
         leveraging <span className="font-bold">Large Language Models (LLMs)</span> and{" "}
-        <span className="font-bold">OpenAI's API models</span>, we can go beyond keywords, extracting the essential
+        <span className="font-bold">OpenAI&apos;s API models</span>, we can go beyond keywords, extracting the essential
         requirements from job descriptions, including skills, certifications, experience levels, and industry relevance.
       </p>
       <p className="mt-3">
@@ -93,7 +92,9 @@ export default function JobMatching() {
         For candidates who may be apprehensive about the application process, our app provides additional resources,
         such as interview preparation guides and advice from nonprofit partners.{" "}
       </p>
-      <p>This support aims to boost users' confidence and make the transition to employment as smooth as possible.</p>
+      <p>
+        This support aims to boost users&apos; confidence and make the transition to employment as smooth as possible.
+      </p>
       <h2 className="text-2xl font-bold mt-4">Step 5: Feedback and Follow-Up</h2>
       <p className="mt-3">
         The journey doesn’t end with an application. Our app encourages users to provide feedback on their job matches
