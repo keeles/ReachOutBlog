@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex justify-between w-full max-w-3xl py-5 flex-col sm:flex-row">
         <div className="flex items-center self-start py-2 px-1">
           <Link href="/">
-            <Image src={logoSVG} alt="Reach Out Logo" width={60} height={60} className="mr-2" />
+            <Image src={logoSVG} alt="Reach Out Logo in Header" width={60} height={60} className="mr-2" />
           </Link>
           <h1 className="text-2xl">ReachOut</h1>
         </div>
