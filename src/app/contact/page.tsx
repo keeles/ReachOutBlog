@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function ContactPage() {
   return (
     <main>
-      <div className="contact-form mt-5">
+      <div className="contact-form">
         <h1 className="text-3xl font-bold">Contact ReachOut</h1>
         <p className="mt-3">
           ReachOut is a group of BCIT students that are working to help people who have been released from prison find

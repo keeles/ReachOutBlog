@@ -4,84 +4,66 @@ import blogImage from "../assets/life-beyond-second-chance-hiring-blog-post-1.jp
 
 export default function Blog() {
   return (
-    <article className="blog-post">
-      <div className="post-title">
-        <h1 className="text-3xl font-bold">
-          Transforming the Workforce: Introducing a Platform for Second-Chance Employment
-        </h1>
-        <p className="">October 14th, 2024</p>
-      </div>
-      <p className="mt-3">
-        ReachOut is a platform designed to bridge the gap between organizations helping ex-offenders and employers who
-        are open to second-chance hiring. Based on our research, we know many ex-offenders face barriers re-entering
-        society, even though they often possess the skills, motivation, and dedication to succeed. At the same time,
-        many employers are currently facing labor shortages despite the valuable talent pool that is available. Our
-        platform seeks to provide a solution to both those problems.
-      </p>
-      <Image
-        src={blogImage}
-        alt={`
-          The benefits of second chance hiring: Employees with a criminal record have a 13% lower turnover rate than those without one.
-          58% of Canadians surveyed said they would be more likely to buy products and services from companies hiring ex-offenders.
-          There is a 40% reduction in recidivism for individuals who secure employment release.
-          82% of managers reported that employee with criminal records perform just as well, if not better than those without.  
-          `}
-        width={800}
-        height={400}
-        className="w-full my-4 rounded-lg shadow"
-      />
-      <h2 className="text-2xl font-bold mt-4">Our Vision</h2>
-      <p>
-        Our mission is simple: to reduce recidivism and encourage individuals to rebuild their lives by offering an
-        intuitive, data-driven platform that automatically connects qualified candidates with employers. Through our
-        program, employers can easily connect with nonprofits dedicated to reintegrating ex-offenders with a complete
-        resource database to help them make informed hiring decisions.
-      </p>
-      <h2 className="text-2xl font-bold mt-4">Key Features</h2>
-      <ul className="list-disc list-inside ml-5 mb-5">
-        <li>
-          <span className="font-bold">Employer Database:</span> A comprehensive database of companies open to
-          second-chance hiring practices; searchable by industry, location, and job type.
-        </li>
-        <li>
-          <span className="font-bold">Candidate Profiles:</span> Secure profiles for candidates, managed by
-          organizations to showcase their skills, experience, and readiness for work.
-        </li>
-        <li>
-          <span className="font-bold">AI-Driven Job-Matching:</span> AI to connect candidates with the best job
-          opportunities based on their skills, experience, and preferences.
-        </li>
-        <li>
-          <span className="font-bold">Integrated Communication:</span> In-app messaging that enables organizations and
-          employers to communicate efficiently, track hiring progress, and share necessary documents.
-        </li>
-        <li>
-          <span className="font-bold">Legal Guidance:</span> Up-to-date information on tax incentives, legal guidelines,
-          and HR best practices related to second-chance hiring.
-        </li>
-      </ul>
-      <h2 className="text-2xl font-bold mt-4">Why This Matters</h2>
-      <p>
-        We are passionate about creating a positive social and economic impact with this platform. Each successful hire
-        represents a step towards reduced recidivism, stronger community bonds, and a more diverse workforce. By
-        investing in second-chance hiring, you’re not just giving someone a job–you’re helping build a better, more
-        equitable society.
-      </p>
-      <h2 className="text-2xl font-bold mt-4">What’s Next?</h2>
-      <p>
-        As development continues, we look forward to building a network of partners who share our vision of bettering
-        lives through employment opportunities. We welcome your feedback and partnership to ensure our platform is as
-        effective as possible. Let’s work together to make second chances a reality for thousands of deserving
-        individuals!
-      </p>
-      <h2 className="text-2xl font-bold mt-4">Get in Touch!</h2>
-      <p>
-        If you’d like to learn more or get involved, please reach out to us{" "}
-        <Link href="/contact" className="underline">
-          here
+    <article className="blog-post-list">
+      <h1 className="text-3xl font-bold mb-4">Blog Posts</h1>
+      <ul className="list-inside ml-5 mb-5">
+        <Link href="/blog/posts/job-matching">
+          <li className="dark:border border-2 dark:border-white border-slate-700 rounded-md p-2 m-2 max-h-32 overflow-hidden hover:max-h-[300px] transition-all duration-300 ease-in-out transform hover:scale-105">
+            <span className="text-lg font-bold">
+              How Our App Matches Candidates with the Right Jobs: A Step-by-Step Guide
+            </span>
+            <p className="">November 5th, 2024</p>
+            <p className="mt-2">
+              {" "}
+              At the heart of our app is an AI-driven job-matching system designed to connect ex-offenders with
+              meaningful employment opportunities. Our goal is to make the job search process as seamless and supportive
+              as possible, empowering users to find roles that align with their skills, certifications, and career
+              goals. Here’s a behind-the-scenes look at how our app’s matching process works—from profile creation to
+              landing an interview.
+            </p>
+          </li>
         </Link>
-        .
-      </p>
+        <Link href="/blog/posts/our-technology">
+          <li className="dark:border border-2 dark:border-white border-slate-700 rounded-md p-2 m-2 max-h-32 overflow-hidden hover:max-h-[300px] transition-all duration-300 ease-in-out transform hover:scale-105">
+            <span className="text-lg font-bold">Inside Our App's Technology: AI & UI Component Library</span>
+            <p className="">October 29th, 2024</p>
+            <p className="mt-2">
+              Our app uses AI to go beyond basic keyword matching, focusing instead on aligning each user’s unique
+              skills, certifications, and work experience with relevant job listings. This personalized approach allows
+              us to tailor job opportunities to match each individual’s qualifications. This provides users a better
+              chance at finding roles where they can find long term success.
+            </p>
+          </li>
+        </Link>
+        <Link href="/blog/posts/trust-through-design">
+          <li className="dark:border border-2 dark:border-white border-slate-700 rounded-md p-2 m-2 max-h-32 overflow-hidden hover:max-h-[300px] transition-all duration-300 ease-in-out transform hover:scale-105">
+            <span className="text-lg font-bold">Building Trust Through Our Design: Logo & Style Guide</span>
+            <p>October 21st, 2024</p>
+            <p className="mt-2">
+              For the design of our web app, we wanted every element to resonate with our core values: trust,
+              connection, and support. By carefully choosing colors and imagery that evoke warmth and security, we aimed
+              to create an environment where our diverse user base of nonprofit workers, ex-offenders, and employers
+              feels safe and empowered. Every design decision was made with these values in mind, ensuring that the app
+              not only meets functional needs but also creates a sense of community and understanding.
+            </p>
+          </li>
+        </Link>
+        <Link href="/blog/posts/transforming-the-workplace">
+          <li className="dark:border border-2 dark:border-white border-slate-700 rounded-md p-2 m-2 max-h-32 overflow-hidden hover:max-h-[300px] transition-all duration-300 ease-in-out transform hover:scale-105">
+            <span className="text-lg font-bold">
+              Transforming the Workforce: Introducing a Platform for Second-Chance Employment
+            </span>
+            <p className="">October 14th, 2024</p>
+            <p className="mt-2">
+              ReachOut is a platform designed to bridge the gap between organizations helping ex-offenders and employers
+              who are open to second-chance hiring. Based on our research, we know many ex-offenders face barriers
+              re-entering society, even though they often possess the skills, motivation, and dedication to succeed. At
+              the same time, many employers are currently facing labor shortages despite the valuable talent pool that
+              is available. Our platform seeks to provide a solution to both those problems.
+            </p>
+          </li>
+        </Link>
+      </ul>
     </article>
   );
 }

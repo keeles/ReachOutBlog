@@ -1,5 +1,5 @@
 import Image from "next/image";
-import coverPhoto from "./assets/reach-out-main-page-cover-photo.jpeg";
+import coverPhoto from "../assets/reach-out-main-page-cover-photo.jpeg";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/logo-new.svg";
+import logo from "../../assets/logo-new.svg";
 
 const teamMembers = [
   {
@@ -46,7 +46,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <div className="max-w-3xl mx-auto p-5">
+    <div className="max-w-3xl mx-auto px-5">
       <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {teamMembers.map((member, index) => (

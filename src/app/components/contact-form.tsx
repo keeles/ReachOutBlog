@@ -1,8 +1,8 @@
 "use client";
 
 import {FormEvent, useState} from "react";
-import SendEmailAction from "../actions/send-email-action";
-import validateContent from "../validation/contact-form";
+import SendEmailAction from "../../actions/send-email-action";
+import validateContent from "../../validation/contact-form";
 import {useSearchParams} from "next/navigation";
 import {Toaster} from "react-hot-toast";
 import toast from "react-hot-toast";
