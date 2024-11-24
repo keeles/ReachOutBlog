@@ -1,45 +1,51 @@
 import Image from "next/image";
 import logo from "../../assets/logo-new.svg";
+import arabellaBlog from "../../assets/ArabellaBlog.jpeg";
+import ahmedBlog from "../../assets/AhmedBlog.jpg";
+import melissaBlog from "../../assets/MelissaBlog.jpg";
+import kellyBlog from "../../assets/KellyBlog.jpg";
+import ademiBlog from "../../assets/Ademi-Blog.jpg";
+import kyleBlog from "../../assets/Kyle-Blog-2.jpg";
 
 const teamMembers = [
   {
     name: "Ademi",
-    image: logo, // Replace with actual image paths
-    description: "Front-end Web Developer.",
+    image: ademiBlog,
+    description: "Full-Stack Web Developer | AI Specialist",
   },
   {
     name: "Ahmed",
-    image: logo, // Replace with actual image paths
-    description: "AI Specialist, Back-end Web Developer",
+    image: ahmedBlog,
+    description: "Full-Stack Web Developer",
   },
   {
     name: "Arabella",
-    image: logo, // Replace with actual image paths
+    image: arabellaBlog,
     description: "UI Designer",
   },
   {
     name: "Christine",
-    image: logo, // Replace with actual image paths
-    description: "AI Specialist, Full-Stack Web Developer",
+    image: logo,
+    description: "Full-Stack Web Developer",
   },
   {
     name: "Daniel",
-    image: logo, // Replace with actual image paths
+    image: logo,
     description: "Research, Designer",
   },
   {
     name: "Kelly",
-    image: logo, // Replace with actual image paths
+    image: kellyBlog,
     description: "Research, Designer",
   },
   {
     name: "Kyle",
-    image: logo, // Replace with actual image paths
+    image: kyleBlog,
     description: "Project Manager, Full-Stack Web Developer",
   },
   {
     name: "Melissa",
-    image: logo, // Replace with actual image paths
+    image: melissaBlog,
     description: "UI/UX Designer",
   },
 ];
@@ -51,13 +57,9 @@ export default function Team() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {teamMembers.map((member, index) => (
           <div key={index} className="border rounded-lg p-4 flex flex-col items-center">
-            <Image
-              src={member.image}
-              alt={member.name}
-              width={60}
-              height={60}
-              className="w-32 h-32 rounded-full mb-2"
-            />
+            <div className="w-32 h-32 rounded-full overflow-hidden mb-2">
+              <Image src={member.image} alt={member.name} width={200} height={200} className="object-cover" />
+            </div>
             <h3 className="text-xl font-semibold">{member.name}</h3>
             <p className="text-center">{member.description}</p>
           </div>
