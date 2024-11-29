@@ -6,6 +6,8 @@ import melissaBlog from "../../assets/MelissaBlog.jpg";
 import kellyBlog from "../../assets/KellyBlog.jpg";
 import ademiBlog from "../../assets/Ademi-Blog.jpg";
 import kyleBlog from "../../assets/Kyle-Blog-2.jpg";
+import christineBlog from "../../assets/christine_blog.jpg";
+import danielBlog from "../../assets/daniel_blog.png";
 
 const teamMembers = [
   {
@@ -25,12 +27,12 @@ const teamMembers = [
   },
   {
     name: "Christine",
-    image: logo,
+    image: christineBlog,
     description: "Full-Stack Web Developer",
   },
   {
     name: "Daniel",
-    image: logo,
+    image: danielBlog,
     description: "Research, Designer",
   },
   {
