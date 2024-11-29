@@ -1,5 +1,4 @@
 import Image from "next/image";
-import logo from "../../assets/logo-new.svg";
 import arabellaBlog from "../../assets/ArabellaBlog.jpeg";
 import ahmedBlog from "../../assets/AhmedBlog.jpg";
 import melissaBlog from "../../assets/MelissaBlog.jpg";
